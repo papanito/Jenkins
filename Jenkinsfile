@@ -1,7 +1,7 @@
 library identifier: 'custom-lib@master', retriever: modernSCM(
   [$class: 'GitSCMSource',
    remote: 'git@github.com:papanito/jenkins-pipeline-helper.git',
-   credentialsId: 'papanito'])
+   credentialsId: '1681f77f-de00-4f0e-aa5c-12e614100fc4'])
 
 pipeline {
     agent any

@@ -1,3 +1,4 @@
+@org.jenkinsci.plugins.workflow.libs.Library('PipelineHelperPapanito')
 pipeline {
     agent any
     parameters {        

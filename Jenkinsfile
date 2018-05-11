@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                  script {
-                     if (${params.isRelease}) {
+                     if ("${params.isRelease}" == "true")) {
                           echo("This is a release")
                      }
                  }

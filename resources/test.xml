@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<credentials>
+    <id>JDBC</id>
+    <user>JDBC_USERNAME_PLACEHOLDER</user>
+    <password>JDBC_PASSWORD_PLACEHOLDER</password>
+</credentials>

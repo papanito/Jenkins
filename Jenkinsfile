@@ -1,4 +1,7 @@
 pipeline {
+    agent {
+        any
+    }
     parameters {        
         booleanParam(defaultValue: false, description: 'This is a Release build', name: 'isRelease')
     }

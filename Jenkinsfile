@@ -1,4 +1,4 @@
-library identifier: 'custom-lib@master', retriever: modernSCM(
+library identifier: 'jenkins-pipeline-helper@master', retriever: modernSCM(
   [$class: 'GitSCMSource',
    remote: 'git@github.com:papanito/jenkins-pipeline-helper.git',
    credentialsId: '1681f77f-de00-4f0e-aa5c-12e614100fc4'])

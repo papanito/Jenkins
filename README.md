@@ -64,3 +64,12 @@ def String getTriggerCause() {
         return "other"
     }
 }
+
+
+### Print environment variables
+
+[Source](https://stackoverflow.com/questions/37083285/how-to-list-all-env-properties-within-jenkins-pipeline-job?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa)
+
+```groovy
+echo bat(returnStdout: true, script: 'set')
+```
